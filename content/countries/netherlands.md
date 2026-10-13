@@ -1,5 +1,12 @@
 ---
 title: "Netherlands"
+resources:
+  - name: "Dutch Police Missing Persons"
+    url: "https://www.politie.nl/en/missing"
+    description: "Official Dutch police missing persons database"
+  - name: "Vermist Help de Politie"
+    url: "https://vermist.helpdepolitie.nl/"
+    description: "Dutch police missing persons assistance platform"
 ---
 
 # Missing Persons Resources in the Netherlands
