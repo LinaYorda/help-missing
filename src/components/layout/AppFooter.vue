@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  <footer class="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
+  <footer class="footer footer-horizontal footer-center bg-neutral text-primary-content p-10">
     <aside>
       <svg
         width="50"
