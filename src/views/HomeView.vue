@@ -1,10 +1,7 @@
 <script setup>
 import { homeSections } from '@/data/homeSections.js'
+import ResourceCard from '@/components/ResourceCard.vue'
 
-function faviconUrl(url) {
-  const { hostname } = new URL(url)
-  return `https://www.google.com/s2/favicons?domain=${hostname}&sz=16`
-}
 </script>
 
 <template>
@@ -17,22 +14,25 @@ function faviconUrl(url) {
       individuals.
     </p>
     <div v-for="section in homeSections" :key="section.title" class="mb-10">
-      <h2 class="text-xl font-bold mb-4">{{ section.title }}</h2>
+      <h2 class="text-xl font-bold text-center mb-4">{{ section.title }}</h2>
       <div class="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
-        <a
-          v-for="resource in section.resources"
+        <ResourceCard
+          v-for="resource in section.resources.slice(0,5)"
           :key="resource.url"
-          :href="resource.url"
-          target="_blank"
-          rel="noopener noreferrer"
+          :name="resource.name"
+          :url="resource.url"
+          :description="resource.description"
           class="card bg-base-100 shadow-sm hover:shadow-md transition-shadow p-4"
         >
-          <h3 class="font-semibold flex items-center gap-2">
-            <img :src="faviconUrl(resource.url)" alt="" class="w-4 h-4 rounded-sm" @error="(e) => (e.target.style.display = 'none')" />
-            {{ resource.name }}</h3>
-          <p class="text-sm text-base-content/70">{{ resource.description }}</p>
-        </a>
+        </ResourceCard>
       </div>
+      <RouterLink
+        v-if="section.slug && section.resources.length > 4"
+        :to="`/countries/${section.slug}`"
+        class="btn btn-sm btn-warning btn-outline mt-2"
+      >
+        View all {{ section.resources.length }} resources ->
+      </RouterLink>
     </div>
   </main>
 </template>
