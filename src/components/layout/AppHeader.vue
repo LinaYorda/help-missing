@@ -5,7 +5,6 @@ const navItems = [
   { name: 'Home', url: '/'},
   { name: 'Countries', url: '/countries'},
   { name: 'About', url: '/about'},
-  { name: 'Coverage Map', url: '/coverage'},
   { name: 'Social Feed', url: '/social-feed'},
 ]
 
