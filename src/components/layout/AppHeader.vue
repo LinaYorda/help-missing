@@ -24,11 +24,19 @@ const navItems = [
         </ul>
       </div>
     </div>
-    <div class="navbar-center">
-      <span class="text-xl font-bold">Help Missing</span>
-    </div>
-    <div class="navbar-end">
 
+    <div class="navbar-center">
+      <RouterLink to="/" class="flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+          <circle cx="10" cy="10" r="7"/>
+          <line x1="15" y1="15" x2="21" y2="21"/>
+          <circle cx="10" cy="8" r="1.8" fill="currentColor" stroke="none"/>
+          <path d="M6.7 13.3c0-1.82 1.48-3.3 3.3-3.3s3.3 1.48 3.3 3.3"/>
+        </svg>
+        <span class="text-xl font-bold">Help Missing</span>
+      </RouterLink>
     </div>
+
+    <div class="navbar-end"></div>
   </header>
 </template>
