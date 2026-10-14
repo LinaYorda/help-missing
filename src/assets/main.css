@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @plugin 'daisyui' {
-  themes: light --default, dark --prefersdark, lofi, nord, silk;
+  themes: light --default, dark --prefersdark, lofi, nord, silk, garden, lofi, pastel, winter;
 }
 
 

@@ -7,11 +7,11 @@ const germany = countries.find((c) => c.slug === 'germany')
 const switzerland = countries.find((c) => c.slug === 'switzerland')
 
 export const homeSections = [
-  { title: unitedStates.name, slug: unitedStates.slug, resources: unitedStates.resources },
-  { title: canada.name, slug: canada.slug, resources: canada.resources },
-  { title: brazil.name, slug: brazil.slug, resources: brazil.resources },
-  { title: germany.name, slug: germany.slug, resources: germany.resources },
-  { title: switzerland.name, slug: switzerland.slug, resources: switzerland.resources},
+  { title: unitedStates.name, slug: unitedStates.slug, code: unitedStates.code, resources: unitedStates.resources },
+  { title: canada.name, slug: canada.slug, code: canada.code, resources: canada.resources },
+  { title: brazil.name, slug: brazil.slug, code: brazil.code, resources: brazil.resources },
+  { title: germany.name, slug: germany.slug, code: germany.code, resources: germany.resources },
+  { title: switzerland.name, slug: switzerland.slug, code: switzerland.code, resources: switzerland.resources},
   { title: 'International',
   resources: [
     { name: 'Interpol Identify Me', url: 'https://www.interpol.int/What-you-can-do/Identify-Me', description: "Interpol's database to help identify unknown persons and reunite families" },

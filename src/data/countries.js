@@ -2,6 +2,7 @@ export const countries = [
   {
     "slug": "australia",
     "name": "Australia",
+    "code": "au",
     "resources": [
       {
         "name": "Missing Persons Search",
@@ -33,6 +34,7 @@ export const countries = [
   {
     "slug": "austria",
     "name": "Austria",
+    "code": "at",
     "resources": [
       {
         "name": "Österreich findet euch Missing Persons",
@@ -49,6 +51,7 @@ export const countries = [
   {
     "slug": "brazil",
     "name": "Brazil",
+    "code": "br",
     "resources": [
       {
         "name": "Cadastro Nacional de Pessoas Desaparecidas",
@@ -95,6 +98,7 @@ export const countries = [
   {
     "slug": "canada",
     "name": "Canada",
+    "code": "ca",
     "resources": [
       {
         "name": "Canada's Missing",
@@ -151,6 +155,7 @@ export const countries = [
   {
     "slug": "cyprus",
     "name": "Cyprus",
+    "code": "cy",
     "resources": [
       {
         "name": "Cyprus Police News - Missing Persons",
@@ -162,6 +167,7 @@ export const countries = [
   {
     "slug": "france",
     "name": "France",
+    "code": "fr",
     "resources": [
       {
         "name": "116000 Enfants Disparus",
@@ -183,6 +189,7 @@ export const countries = [
   {
     "slug": "germany",
     "name": "Germany",
+    "code": "de",
     "resources": [
       {
         "name": "Hesse State Police Missing Persons",
@@ -239,6 +246,7 @@ export const countries = [
   {
     "slug": "hong-kong",
     "name": "Hong Kong",
+    "code": "hk",
     "resources": [
       {
         "name": "Hong Kong Police Missing Persons",
@@ -250,6 +258,7 @@ export const countries = [
   {
     "slug": "ireland",
     "name": "Ireland",
+    "code": "ie",
     "resources": [
       {
         "name": "Garda Missing Persons",
@@ -261,6 +270,7 @@ export const countries = [
   {
     "slug": "italy",
     "name": "Italy",
+    "code": "it",
     "resources": [
       {
         "name": "Italian Prefectures Missing Persons Database",
@@ -277,6 +287,7 @@ export const countries = [
   {
     "slug": "mexico",
     "name": "Mexico",
+    "code": "mx",
     "resources": [
       {
         "name": "Registro Nacional de Personas Desaparecidas y No Localizadas (RNPDNO)",
@@ -293,6 +304,7 @@ export const countries = [
   {
     "slug": "netherlands",
     "name": "Netherlands",
+    "code": "nl",
     "resources": [
       {
         "name": "Dutch Police Missing Persons",
@@ -309,6 +321,7 @@ export const countries = [
   {
     "slug": "new-zealand",
     "name": "New Zealand",
+    "code": "nz",
     "resources": [
       {
         "name": "New Zealand Police Missing Persons",
@@ -320,6 +333,7 @@ export const countries = [
   {
     "slug": "poland",
     "name": "Poland",
+    "code": "pl",
     "resources": [
       {
         "name": "ITAKA Foundation - Missing Persons Database",
@@ -331,6 +345,7 @@ export const countries = [
   {
     "slug": "portugal",
     "name": "Portugal",
+    "code": "pt",
     "resources": [
       {
         "name": "Policia Judiciaria",
@@ -342,6 +357,7 @@ export const countries = [
   {
     "slug": "romania",
     "name": "Romania",
+    "code": "ro",
     "resources": [
       {
         "name": "Romanian Police Missing Persons",
@@ -353,6 +369,7 @@ export const countries = [
   {
     "slug": "south-africa",
     "name": "South Africa",
+    "code": "za",
     "resources": [
       {
         "name": "SAPS Missing Persons",
@@ -364,6 +381,7 @@ export const countries = [
   {
     "slug": "spain",
     "name": "Spain",
+    "code": "es",
     "resources": [
       {
         "name": "SOS Desaparecidos",
@@ -380,6 +398,7 @@ export const countries = [
   {
     "slug": "switzerland",
     "name": "Switzerland",
+    "code": "ch",
     "resources": [
       {
         "name": "Swiss Police Missing Persons",
@@ -421,6 +440,7 @@ export const countries = [
   {
     "slug": "turkey",
     "name": "Turkey",
+    "code": "tr",
     "resources": [
       {
         "name": "Kayıp Arananlar - Emniyet Genel Müdürlüğü",
@@ -432,6 +452,7 @@ export const countries = [
   {
     "slug": "united-kingdom",
     "name": "United Kingdom",
+    "code": "gb",
     "resources": [
       {
         "name": "Missing People",
@@ -458,6 +479,7 @@ export const countries = [
   {
     "slug": "united-states",
     "name": "United States",
+    "code": "us",
     "resources": [
       {
         "name": "National Missing and Unidentified Persons System (NamUs)",
