@@ -12,7 +12,7 @@ This website serves as a portal for missing persons resources and information. I
 - **Government Resources** - Official government portals and coordination centers.
 - **Support Organizations** - Non-profit groups and associations helping with missing persons cases.
 - **International Resources** - Global organizations like Interpol and ICMEC.
-- **Regional Coverage** - 25 countries across Europe, North America, South America, Oceania, Asia, and Africa.
+- **Regional Coverage** - Countries across Europe, North America, South America, Oceania, Asia, and Africa.
 
 See the [About page](/about) for live, always-up-to-date country/resource counts.
 
