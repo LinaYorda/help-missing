@@ -1,5 +1,17 @@
 export const countries = [
   {
+    "slug": "argentina",
+    "name": "Argentina",
+    "code": "ar",
+    "resources": [
+      {
+        "name": "SIFEBU - Sistema Federal de Búsqueda de Personas Desaparecidas y Extraviadas",
+        "url": "https://www.argentina.gob.ar/seguridad/personasextraviadas",
+        "description": "Official federal system under the Ministry of Security for coordinating the search for missing and strayed persons"
+      }
+    ]
+  },
+  {
     "slug": "australia",
     "name": "Australia",
     "code": "au",
@@ -45,6 +57,23 @@ export const countries = [
         "name": "Meinbezirk Missing Persons Search",
         "url": "https://www.meinbezirk.at/tag/vermisstensuche",
         "description": "Austrian regional news site with missing persons search and information"
+      }
+    ]
+  },
+  {
+    "slug": "belgium",
+    "name": "Belgium",
+    "code": "be",
+    "resources": [
+      {
+        "name": "Federal Police Missing Persons",
+        "url": "https://www.police.be/wanted/en/wanted/missing-persons",
+        "description": "Official Belgian federal police missing persons registry"
+      },
+      {
+        "name": "Child Focus",
+        "url": "https://www.childfocus.be/en-be/",
+        "description": "Belgium's foundation and 116 000 hotline for missing and sexually exploited children"
       }
     ]
   },
@@ -165,6 +194,30 @@ export const countries = [
     ]
   },
   {
+    "slug": "czech-republic",
+    "name": "Czech Republic",
+    "code": "cz",
+    "resources": [
+      {
+        "name": "Pátrání po osobách - Policie České republiky",
+        "url": "https://policie.gov.cz/patrani-osoby",
+        "description": "Official Czech police search registry for missing and wanted persons, searchable by name and region"
+      }
+    ]
+  },
+  {
+    "slug": "denmark",
+    "name": "Denmark",
+    "code": "dk",
+    "resources": [
+      {
+        "name": "Missing People Denmark",
+        "url": "https://www.missing-people.dk/index.php/savnede-personer/",
+        "description": "Nationwide volunteer organization locating missing persons, 24-hour hotline"
+      }
+    ]
+  },
+  {
     "slug": "france",
     "name": "France",
     "code": "fr",
@@ -252,6 +305,18 @@ export const countries = [
         "name": "Hong Kong Police Missing Persons",
         "url": "https://www.police.gov.hk/ppp_en/06_appeals_public/missing/",
         "description": "Hong Kong Police Force missing persons appeals and information"
+      }
+    ]
+  },
+  {
+    "slug": "india",
+    "name": "India",
+    "code": "in",
+    "resources": [
+      {
+        "name": "ZIPNET - Zonal Integrated Police Network",
+        "url": "https://zipnet.delhipolice.gov.in/",
+        "description": "Official police network for missing persons and unidentified persons, covering Delhi-NCR and 7 northern states (not nationwide)"
       }
     ]
   },
@@ -392,6 +457,18 @@ export const countries = [
         "name": "Centro Nacional de Desaparecidos",
         "url": "https://cndes-web.ses.mir.es/publico/Desaparecidos/",
         "description": "Spanish National Center for Missing Persons"
+      }
+    ]
+  },
+  {
+    "slug": "sweden",
+    "name": "Sweden",
+    "code": "se",
+    "resources": [
+      {
+        "name": "Missing People Sweden",
+        "url": "https://www.missingpeople.se/",
+        "description": "Nationwide non-profit coordinating search operations with police, 24/7 hotline"
       }
     ]
   },
@@ -545,7 +622,7 @@ export const countries = [
         "name": "New Mexico Department of Public Safety Missing Persons",
         "url": "http://missingpersons.dps.state.nm.us/mpweb/mpstate_serv",
         "description": "Official New Mexico missing persons database with search and reporting capabilities"
-      }
+      },
     ]
   }
 ]
