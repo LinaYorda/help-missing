@@ -29,7 +29,7 @@ useHead({
 
 <template>
   <main v-if="country">
-    <h1 class="text text-3xl text-center font-bold flex items-center justify-center gap-2">
+    <h1 class="text text-3xl text-center font-bold flex items-center justify-center gap-2 mb-3">
       <img v-if="country.code" :src="`https://flagcdn.com/w40/${country.code}.png`" :alt="country.name" class="w-6 rounded" />
       {{ country.name }}
     </h1>
