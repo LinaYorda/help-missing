@@ -194,6 +194,30 @@ export const countries = [
     ]
   },
   {
+    "slug": "czech-republic",
+    "name": "Czech Republic",
+    "code": "cz",
+    "resources": [
+      {
+        "name": "Pátrání po osobách - Policie České republiky",
+        "url": "https://policie.gov.cz/patrani-osoby",
+        "description": "Official Czech police search registry for missing and wanted persons, searchable by name and region"
+      }
+    ]
+  },
+  {
+    "slug": "denmark",
+    "name": "Denmark",
+    "code": "dk",
+    "resources": [
+      {
+        "name": "Missing People Denmark",
+        "url": "https://www.missing-people.dk/index.php/savnede-personer/",
+        "description": "Nationwide volunteer organization locating missing persons, 24-hour hotline"
+      }
+    ]
+  },
+  {
     "slug": "france",
     "name": "France",
     "code": "fr",
@@ -281,6 +305,18 @@ export const countries = [
         "name": "Hong Kong Police Missing Persons",
         "url": "https://www.police.gov.hk/ppp_en/06_appeals_public/missing/",
         "description": "Hong Kong Police Force missing persons appeals and information"
+      }
+    ]
+  },
+  {
+    "slug": "india",
+    "name": "India",
+    "code": "in",
+    "resources": [
+      {
+        "name": "ZIPNET - Zonal Integrated Police Network",
+        "url": "https://zipnet.delhipolice.gov.in/",
+        "description": "Official police network for missing persons and unidentified persons, covering Delhi-NCR and 7 northern states (not nationwide)"
       }
     ]
   },
