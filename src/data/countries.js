@@ -1,5 +1,17 @@
 export const countries = [
   {
+    "slug": "argentina",
+    "name": "Argentina",
+    "code": "ar",
+    "resources": [
+      {
+        "name": "SIFEBU - Sistema Federal de Búsqueda de Personas Desaparecidas y Extraviadas",
+        "url": "https://www.argentina.gob.ar/seguridad/personasextraviadas",
+        "description": "Official federal system under the Ministry of Security for coordinating the search for missing and strayed persons"
+      }
+    ]
+  },
+  {
     "slug": "australia",
     "name": "Australia",
     "code": "au",
@@ -45,6 +57,23 @@ export const countries = [
         "name": "Meinbezirk Missing Persons Search",
         "url": "https://www.meinbezirk.at/tag/vermisstensuche",
         "description": "Austrian regional news site with missing persons search and information"
+      }
+    ]
+  },
+  {
+    "slug": "belgium",
+    "name": "Belgium",
+    "code": "be",
+    "resources": [
+      {
+        "name": "Federal Police Missing Persons",
+        "url": "https://www.police.be/wanted/en/wanted/missing-persons",
+        "description": "Official Belgian federal police missing persons registry"
+      },
+      {
+        "name": "Child Focus",
+        "url": "https://www.childfocus.be/en-be/",
+        "description": "Belgium's foundation and 116 000 hotline for missing and sexually exploited children"
       }
     ]
   },
@@ -396,6 +425,18 @@ export const countries = [
     ]
   },
   {
+    "slug": "sweden",
+    "name": "Sweden",
+    "code": "se",
+    "resources": [
+      {
+        "name": "Missing People Sweden",
+        "url": "https://www.missingpeople.se/",
+        "description": "Nationwide non-profit coordinating search operations with police, 24/7 hotline"
+      }
+    ]
+  },
+  {
     "slug": "switzerland",
     "name": "Switzerland",
     "code": "ch",
@@ -545,7 +586,7 @@ export const countries = [
         "name": "New Mexico Department of Public Safety Missing Persons",
         "url": "http://missingpersons.dps.state.nm.us/mpweb/mpstate_serv",
         "description": "Official New Mexico missing persons database with search and reporting capabilities"
-      }
+      },
     ]
   }
 ]
