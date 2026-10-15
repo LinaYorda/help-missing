@@ -1,70 +1,39 @@
-# Missing Persons Resources
+# Help Missing
 
 A curated directory of missing persons databases, police resources, and support organizations from around the world.
 
-
 ## About This Project
 
-This website serves as a centralized portal for missing persons resources and information. I've gathered these resources through extensive research to help families, investigators, and concerned individuals find the right contacts and databases when someone goes missing.
+This website serves as a portal for missing persons resources and information. I've gathered these resources through research to help families, investigators, and concerned individuals find the right contacts and databases when someone goes missing.
 
 ### What You'll Find Here
 
-- **Official Police Databases** - State and national missing persons databases from law enforcement agencies
-- **Government Resources** - Official government portals and coordination centers
-- **Support Organizations** - Non-profit groups and associations helping with missing persons cases
-- **International Resources** - Global organizations like Interpol and ICMEC
-- **Regional Coverage** - Resources from 17+ countries across Europe, North America, Oceania, Asia, and Africa
+- **Official Police Databases** - State and national missing persons databases from law enforcement agencies.
+- **Government Resources** - Official government portals and coordination centers.
+- **Support Organizations** - Non-profit groups and associations helping with missing persons cases.
+- **International Resources** - Global organizations like Interpol and ICMEC.
+- **Regional Coverage** - 22 countries across Europe, North America, Oceania, Asia, and Africa.
 
-## Site Statistics
-
-- **17 Countries** covered with verified resources
-- **58+ Resources** including databases, hotlines, and support organizations
-- **Regular Updates** - Links are verified and resources are maintained current
+See the [About page](/about) for live, always-up-to-date country/resource counts.
 
 ## How to Use This Site
 
 1. **Browse by Country** - Use the navigation menu or countries page to find resources in specific locations
-2. **Search Within Countries** - Each country page contains categorized links to relevant resources
-3. **Global Coverage Map** - View the interactive map showing all countries with available resources
+2. **Country Pages** - Each country page contains categorized links to relevant resources
+3. **Social Feed** - Follow official missing persons organizations' Facebook pages
 4. **External Links** - All links open in new tabs for easy reference
-
-### Country Coverage
-
-Currently includes resources for:
-- United States, Canada, United Kingdom
-- Germany, France, Austria, Switzerland
-- Australia, New Zealand
-- Spain, Italy, Netherlands, Ireland
-- Poland, Romania, South Africa
-- Hong Kong
 
 ## International Resources
 
 Global organizations providing missing persons assistance worldwide:
 
-- **[Interpol Red Notices](https://www.interpol.int/en/How-we-work/Notices/Red-Notices)** - International criminal police organization notices for wanted persons
+- **[Interpol Identify Me](https://www.interpol.int/What-you-can-do/Identify-Me)** - Interpol's database to help identify unknown persons and reunite families
 - **[ICMEC](https://www.icmec.org)** - International Centre for Missing & Exploited Children
 - **[ICMP Missing Persons Database](https://oic.icmp.int/index.php?w=reg_lista_pub_ter_in&x=search&l=en)** - International Commission on Missing Persons database for conflict, disaster, and human rights cases
 
-## Sample Resources by Country
-
-### United States
-- **[NamUs](https://namus.nij.ojp.gov/)** - National Missing and Unidentified Persons System
-- **[NCIC Missing Persons](https://www.fbi.gov/services/cjis/ncic)** - FBI National Crime Information Center
-
-### Canada
-- **[Canadian Police Centre for Missing Persons](https://www.canada.ca/en/public-safety-canada/services/missing-persons.html)** - National missing persons coordination
-- **[RCMP Missing Persons](https://www.rcmp-grc.gc.ca/en/missing-and-exploited-children)** - Royal Canadian Mounted Police
-
-### Germany
-- **[Bundeskriminalamt Vermisste](https://www.bka.de/DE/UnsereAufgaben/Deliktsbereiche/VermisstePersonen/vermisstePersonen_node.html)** - Federal Criminal Police Office missing persons
-- **[Polizei Brandenburg Vermisste](https://www.polizei.brandenburg.de/sicherheit/vermisste)** - Brandenburg State Police missing persons
-
-*For the complete list of resources for each country, please visit the website where all links are organized by country with full descriptions.*
-
 ## Important Safety Notice
 
-If you believe you are a victim of foul play or want to report a missing person, contact your local authorities immediately.Do not delay in seeking help from law enforcement or emergency services.
+If you believe you are a victim of foul play or want to report a missing person, contact your local authorities immediately. Do not delay in seeking help from law enforcement or emergency services.
 
 ## Contributing
 
@@ -88,24 +57,42 @@ For contributions, corrections, or suggestions: Please reach out with details ab
 ## Technical Details
 
 This site is built with:
-- **Hugo** - Static site generator
-- **Git** - Version control
-- **Markdown** - Content format
-- **Leaflet.js** - Interactive coverage map
+- **Vue 3** - Composition API, `<script setup>` single-file components
+- **Vite** + **vite-ssg** - builds and prerenders every route to real static HTML at build time, for SEO/crawlability without needing a server
+- **Vue Router** - client-side routing
+- **Tailwind CSS v4** + **DaisyUI** - styling
+- **Pinia** - installed for future search/filter functionality
+- **Vitest** - unit tests (currently guards the integrity of the country/resource data)
+- **Playwright** - end-to-end tests (planned)
+
+Country/resource data lives in `src/data/countries.js` as a hand-maintained plain JS array, with a Vitest guard (`src/data/countries.spec.js`) checking every country has a valid `slug`/`name` and every resource has `name`/`url`/`description`.
 
 ### Local Development
 
-You need to have Hugo installed on your machine. 
+Requires Node.js (see `engines` in `package.json` for supported versions).
 
 ```bash
 # Clone the repo
-git clone 
+git clone <repo-url>
 
-# Start development server
-hugo server
+# Install dependencies
+npm install
 
-# Build for production
-hugo --minify
+# Start the dev server
+npm run dev
+
+# Run unit tests
+npm run test:unit
+
+# Lint and format
+npm run lint
+npm run format
+
+# Production build (prerenders every route to dist/)
+npm run build
+
+# Preview the production build locally
+npm run preview
 ```
 
 ## Data Sources & Verification
@@ -131,4 +118,3 @@ This project is maintained for humanitarian purposes. The content and structure 
 ## Acknowledgments
 
 This resource directory exists to help bridge the gap between those searching for missing persons and the organizations that can assist them. Special thanks to all the law enforcement agencies, support organizations, and families who work tirelessly on missing persons cases worldwide.
-
