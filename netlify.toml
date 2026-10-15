@@ -1,9 +1,11 @@
 [build]
-  command = "hugo --minify"
-  publish = "public"
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.151.0"
+  NODE_VERSION = "22.18.0"
 
-[context.production.environment]
-  HUGO_ENV = "production"
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

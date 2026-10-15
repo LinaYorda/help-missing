@@ -1,7 +1,16 @@
 <script setup>
+import { useHead } from '@unhead/vue'
 import {  countries } from "@/data/countries.js";
 
-
+useHead({
+  title: 'Countries – Help Missing',
+  meta: [
+    {
+      name: 'description',
+      content: 'Browse missing persons resources and databases by country.',
+    },
+  ],
+})
 </script>
 
 <template>

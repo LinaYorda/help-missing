@@ -1,7 +1,17 @@
 <script setup>
 import { onMounted } from 'vue'
+import { useHead } from '@unhead/vue'
 import { socialFeedPages} from "@/data/socialFeedPages.js";
 
+useHead({
+  title: 'Social Feed – Help Missing',
+  meta: [
+    {
+      name: 'description',
+      content: 'Follow official missing persons organizations on Facebook.',
+    },
+  ],
+})
 
 onMounted(() => {
   const script = document.createElement('script')

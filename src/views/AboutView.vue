@@ -1,6 +1,17 @@
 <script setup>
+import { useHead } from '@unhead/vue'
 import { countries } from '@/data/countries.js'
 const totalResources = countries.reduce((sum, c) => sum + c.resources.length, 0)
+
+useHead({
+  title: 'About – Help Missing',
+  meta: [
+    {
+      name: 'description',
+      content: 'About the Help Missing directory, how to use the site, and important safety information.',
+    },
+  ],
+})
 </script>
 
 <template>

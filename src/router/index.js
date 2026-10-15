@@ -5,7 +5,7 @@ export const routes = [
   { path: '/about', name: 'about', component: () => import('../views/AboutView.vue') },
   { path: '/countries', name: 'countries', component: () => import('../views/CountriesView.vue')},
   { path: '/countries/:slug', name: 'country-detail', component: () => import('../views/CountryDetailView.vue')},
-  { path: '/social-feed', name: 'social-feed', component: () => import('../views/SocialFeedView.vue')}
-
-
+  { path: '/social-feed', name: 'social-feed', component: () => import('../views/SocialFeedView.vue')},
+  { path: '/404', name: 'not-found', component: () => import('../views/NotFoundView.vue')},
+  { path: '/:pathMatch(.*)*', redirect: '/404' }
 ]

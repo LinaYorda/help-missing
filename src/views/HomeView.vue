@@ -1,11 +1,23 @@
 <script setup>
+import { useHead } from '@unhead/vue'
 import { homeSections } from '@/data/homeSections.js'
 import ResourceCard from '@/components/ResourceCard.vue'
 
+useHead({
+  title: 'Help Missing – Missing Persons Resources Worldwide',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'A curated directory of missing persons databases, police resources, and support organizations from around the world.',
+    },
+  ],
+})
 </script>
 
 <template>
   <main>
+    <h1 class="text-3xl font-bold text-center mb-4">Help Missing</h1>
     <p class="mb-8">
       Welcome to Help Missing, a collection of missing persons resources and organizations from
       around the world that I've gathered through research. Browse by country below to find official

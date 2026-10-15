@@ -37,7 +37,6 @@ function closeMenu() {
             <circle cx="10" cy="8" r="1.8" fill="currentColor" stroke="none"/>
             <path d="M6.7 13.3c0-1.82 1.48-3.3 3.3-3.3s3.3 1.48 3.3 3.3"/>
           </svg>
-          <span class="text-xl font-bold">Help Missing</span>
         </RouterLink>
       </div>
 
