@@ -11,6 +11,15 @@ useHead({
       content:
         'A curated directory of missing persons databases, police resources, and support organizations from around the world.',
     },
+    { property: 'og:title', content: 'Help Missing – Missing Persons Resources Worldwide' },
+    {
+      property: 'og:description',
+      content:
+        'A curated directory of missing persons databases, police resources, and support organizations from around the world.',
+    },
+    { property: 'og:image', content: 'https://help-missing.netlify.app/og-image.png' },
+    { property: 'og:url', content: 'https://help-missing.netlify.app/' },
+    { property: 'og:type', content: 'website' },
   ],
 })
 </script>
@@ -31,7 +40,7 @@ useHead({
       </h2>
       <div class="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
         <ResourceCard
-          v-for="resource in section.resources.slice(0,5)"
+          v-for="resource in section.resources.slice(0,6)"
           :key="resource.url"
           :name="resource.name"
           :url="resource.url"
@@ -42,7 +51,7 @@ useHead({
         </ResourceCard>
       </div>
       <RouterLink
-        v-if="section.slug && section.resources.length > 4"
+        v-if="section.slug && section.resources.length > 6"
         :to="`/countries/${section.slug}`"
         class="btn btn-sm btn-warning btn-outline mt-2"
       >

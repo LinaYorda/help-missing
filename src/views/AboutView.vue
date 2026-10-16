@@ -10,6 +10,14 @@ useHead({
       name: 'description',
       content: 'About the Help Missing directory, how to use the site, and important safety information.',
     },
+    { property: 'og:title', content: 'About – Help Missing' },
+    {
+      property: 'og:description',
+      content: 'About the Help Missing directory, how to use the site, and important safety information.',
+    },
+    { property: 'og:image', content: 'https://help-missing.netlify.app/og-image.png' },
+    { property: 'og:url', content: 'https://help-missing.netlify.app/about' },
+    { property: 'og:type', content: 'website' },
   ],
 })
 </script>

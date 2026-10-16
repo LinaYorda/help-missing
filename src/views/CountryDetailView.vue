@@ -23,6 +23,18 @@ useHead({
       content: () =>
         `Missing persons resources and databases for ${country.value?.name ?? 'this country'}.`,
     },
+    { property: 'og:title', content: () => `${country.value?.name ?? 'Country'} – Help Missing` },
+    {
+      property: 'og:description',
+      content: () =>
+        `Missing persons resources and databases for ${country.value?.name ?? 'this country'}.`,
+    },
+    { property: 'og:image', content: 'https://help-missing.netlify.app/og-image.png' },
+    {
+      property: 'og:url',
+      content: () => `https://help-missing.netlify.app/countries/${country.value?.slug ?? ''}`,
+    },
+    { property: 'og:type', content: 'website' },
   ],
 })
 </script>

@@ -8,6 +8,11 @@ useHead({
       name: 'description',
       content: 'The page you are looking for could not be found.',
     },
+    { property: 'og:title', content: 'Page Not Found – Help Missing' },
+    { property: 'og:description', content: 'The page you are looking for could not be found.' },
+    { property: 'og:image', content: 'https://help-missing.netlify.app/og-image.png' },
+    { property: 'og:url', content: 'https://help-missing.netlify.app/404' },
+    { property: 'og:type', content: 'website' },
   ],
 })
 </script>
