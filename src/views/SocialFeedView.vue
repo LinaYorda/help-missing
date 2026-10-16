@@ -10,6 +10,11 @@ useHead({
       name: 'description',
       content: 'Follow official missing persons organizations on Facebook.',
     },
+    { property: 'og:title', content: 'Social Feed – Help Missing' },
+    { property: 'og:description', content: 'Follow official missing persons organizations on Facebook.' },
+    { property: 'og:image', content: 'https://help-missing.netlify.app/og-image.png' },
+    { property: 'og:url', content: 'https://help-missing.netlify.app/social-feed' },
+    { property: 'og:type', content: 'website' },
   ],
 })
 

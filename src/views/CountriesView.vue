@@ -9,6 +9,11 @@ useHead({
       name: 'description',
       content: 'Browse missing persons resources and databases by country.',
     },
+    { property: 'og:title', content: 'Countries – Help Missing' },
+    { property: 'og:description', content: 'Browse missing persons resources and databases by country.' },
+    { property: 'og:image', content: 'https://help-missing.netlify.app/og-image.png' },
+    { property: 'og:url', content: 'https://help-missing.netlify.app/countries' },
+    { property: 'og:type', content: 'website' },
   ],
 })
 </script>
