@@ -49,6 +49,11 @@ export const countries = [
     "code": "at",
     "resources": [
       {
+        "name": "Bundeskriminalamt - Personenfahndung nach vermissten Erwachsenen",
+        "url": "https://www.bundeskriminalamt.at/fahndung/startfe1b.html?fndgb=abg_ueber_20&fndgm=1",
+        "description": "Official Austrian Federal Criminal Police registry listing active cases of missing adults by name with links to individual case pages"
+      },
+      {
         "name": "Österreich findet euch Missing Persons",
         "url": "https://www.oesterreichfindeteuch.at/vermisste-personen/",
         "description": "Austrian missing persons database and information platform"
@@ -66,6 +71,11 @@ export const countries = [
     "code": "be",
     "resources": [
       {
+        "name": "Child Focus - Alle verdwijningen",
+        "url": "https://childfocus.be/nl-be/Verdwijningen/Alle-verdwijningen",
+        "description": "Belgian missing children/persons foundation's public database listing active and resolved disappearance cases with names, photos, ages, and dates"
+      },
+      {
         "name": "Federal Police Missing Persons",
         "url": "https://www.police.be/wanted/en/wanted/missing-persons",
         "description": "Official Belgian federal police missing persons registry"
@@ -74,6 +84,18 @@ export const countries = [
         "name": "Child Focus",
         "url": "https://www.childfocus.be/en-be/",
         "description": "Belgium's foundation and 116 000 hotline for missing and sexually exploited children"
+      }
+    ]
+  },
+  {
+    "slug": "bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "code": "ba",
+    "resources": [
+      {
+        "name": "ICMP Western Balkans Regional Database of Missing Persons",
+        "url": "https://oic.icmp.int/index.php?w=reg_lista_pub_ter_in&l=en",
+        "description": "Official regional database, backed by the Bosnian Missing Persons Institute and ICMP, searchable by name for thousands of verified missing persons cases from the 1990s conflicts"
       }
     ]
   },
@@ -182,10 +204,27 @@ export const countries = [
     ]
   },
   {
+    "slug": "croatia",
+    "name": "Croatia",
+    "code": "hr",
+    "resources": [
+      {
+        "name": "Nestali - Ministarstvo hrvatskih branitelja",
+        "url": "https://nestali.gov.hr/",
+        "description": "Official Croatian government registry listing missing persons cases by name with photos, filterable by police district, time period, and surname"
+      }
+    ]
+  },
+  {
     "slug": "cyprus",
     "name": "Cyprus",
     "code": "cy",
     "resources": [
+      {
+        "name": "Committee on Missing Persons (CMP) Cyprus - Catalogue Search",
+        "url": "https://www.missing-cy.org.cy/en/catalogue",
+        "description": "Official bi-communal UN-backed database searchable by name, surname, and father's name covering over 1,600 documented missing persons cases from 1963-1974"
+      },
       {
         "name": "Cyprus Police News - Missing Persons",
         "url": "https://www.cypruspolicenews.com/archives/category/%ce%b5%ce%bb%ce%bb%ce%b5%ce%af%cf%80%ce%bf%ce%bd%cf%84%ce%b1-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1",
@@ -199,9 +238,9 @@ export const countries = [
     "code": "cz",
     "resources": [
       {
-        "name": "Pátrání po osobách - Policie České republiky",
+        "name": "Policie České republiky - Pátrání po osobách",
         "url": "https://policie.gov.cz/patrani-osoby",
-        "description": "Official Czech police search registry for missing and wanted persons, searchable by name and region"
+        "description": "Official Czech Police database of thousands of active missing and wanted persons records, displaying names, photos, birth dates, and status"
       }
     ]
   },
@@ -211,9 +250,33 @@ export const countries = [
     "code": "dk",
     "resources": [
       {
-        "name": "Missing People Denmark",
+        "name": "Missing People Denmark - Savnede Personer",
         "url": "https://www.missing-people.dk/index.php/savnede-personer/",
-        "description": "Nationwide volunteer organization locating missing persons, 24-hour hotline"
+        "description": "Danish missing persons organization's public list of active cases showing names, photos, ages, and circumstances of disappearance"
+      }
+    ]
+  },
+  {
+    "slug": "estonia",
+    "name": "Estonia",
+    "code": "ee",
+    "resources": [
+      {
+        "name": "Politsei- ja Piirivalveamet - Teadmata kadunud inimesed",
+        "url": "https://www.politsei.ee/et/teadmata-kadunud-inimesed",
+        "description": "Official Estonian Police and Border Guard Board list of currently unidentified missing persons, showing names with links to individual case details"
+      }
+    ]
+  },
+  {
+    "slug": "finland",
+    "name": "Finland",
+    "code": "fi",
+    "resources": [
+      {
+        "name": "Kadonneet.net - Missing Persons Database Finland",
+        "url": "https://kadonneet.net/haku/",
+        "description": "A searchable database listing active missing persons cases in Finland with names, ages, photos, locations, and disappearance dates"
       }
     ]
   },
@@ -223,6 +286,11 @@ export const countries = [
     "code": "fr",
     "resources": [
       {
+        "name": "ARPD - Rechercher une disparition",
+        "url": "https://www.arpd.fr/fr/recherche-disparition",
+        "description": "Searchable database of hundreds of missing persons cases in France with names, ages, photos, disappearance dates and locations, filterable by region"
+      },
+      {
         "name": "116000 Enfants Disparus",
         "url": "https://www.116000enfantsdisparus.fr/avis-de-recherche/",
         "description": "French missing children hotline search notices"
@@ -231,11 +299,6 @@ export const countries = [
         "name": "Personne Disparue",
         "url": "https://personnedisparue.com/consulter-avis/",
         "description": "French missing persons search database"
-      },
-      {
-        "name": "Association pour la Recherche de Personnes Disparues",
-        "url": "https://www.arpd.fr/fr/recherche-disparition",
-        "description": "French association for missing persons search"
       }
     ]
   },
@@ -245,19 +308,44 @@ export const countries = [
     "code": "de",
     "resources": [
       {
-        "name": "Hesse State Police Missing Persons",
-        "url": "https://www.polizei.hessen.de/fahndungen/personen/vermisste-personen/",
-        "description": "Hesse State Police missing persons database"
+        "name": "BKA - Fahndungsliste Vermisste",
+        "url": "https://www.bka.de/SiteGlobals/Forms/Suche/Fahndungsliste_Vermisste_Formular.html?queryResultId=null",
+        "description": "Official missing persons search list from the German Federal Criminal Police Office showing named active cases with photos and disappearance dates"
       },
       {
         "name": "North Rhine-Westphalia Police Missing Persons",
         "url": "https://polizei.nrw/fahndung?type_1%5B0%5D=missing_persons&sort_order=DESC",
-        "description": "North Rhine-Westphalia Police missing persons search"
+        "description": "North Rhine-Westphalia Police registry listing named missing persons cases with photos"
       },
       {
         "name": "Baden-Württemberg Police Missing Persons",
         "url": "https://fahndung.polizei-bw.de/",
-        "description": "Baden-Württemberg Police missing persons database"
+        "description": "Baden-Württemberg Police registry listing named missing persons cases with photos, locations, and links to individual case pages"
+      },
+      {
+        "name": "Berlin Police Missing Persons",
+        "url": "https://www.berlin.de/polizei/polizeimeldungen/vermisste/",
+        "description": "Berlin Police public appeals list of named missing persons cases with photos and descriptions"
+      },
+      {
+        "name": "Hamburg Police Missing Persons",
+        "url": "https://www.polizei.hamburg/fahndungen/unsere-fahndungen",
+        "description": "Hamburg Police registry listing named missing persons cases with ages, locations, and photos"
+      },
+      {
+        "name": "Mecklenburg-Vorpommern Police Missing Persons",
+        "url": "https://www.polizei.mvnet.de/Presse/Fahndungen/Fahndungen-nach-Personen/",
+        "description": "Mecklenburg-Vorpommern Police searchable database of named missing persons cases with photos and descriptions"
+      },
+      {
+        "name": "Rhineland-Palatinate Police Missing Persons",
+        "url": "https://www.polizei.rlp.de/fahndung/personenfahndungen",
+        "description": "Rhineland-Palatinate Police database of named missing and wanted persons cases with photos, spanning multiple pages"
+      },
+      {
+        "name": "Bremen Police Missing Persons",
+        "url": "https://www.polizei.bremen.de/detail.php?search%5Barea%5D=18&search%5Bsend%5D=true&search%5Bvt%5D=vermisst&template=20_search_d",
+        "description": "Bremen Police search results listing individual missing persons case reports"
       },
       {
         "name": "Bavaria Police Missing Persons",
@@ -265,34 +353,21 @@ export const countries = [
         "description": "Bavaria Police missing persons database"
       },
       {
-        "name": "Berlin Police Missing Persons",
-        "url": "https://www.berlin.de/polizei/polizeimeldungen/vermisste/",
-        "description": "Berlin Police missing persons reports"
-      },
-      {
         "name": "Brandenburg Police Missing Persons",
         "url": "https://polizei.brandenburg.de/suche/typ/Fahndung/kategorie/Vermisste%20Personen",
         "description": "Brandenburg Police missing persons search"
-      },
+      }
+    ]
+  },
+  {
+    "slug": "greece",
+    "name": "Greece",
+    "code": "gr",
+    "resources": [
       {
-        "name": "Bremen Police Missing Persons",
-        "url": "https://www.polizei.bremen.de/detail.php?search%5Barea%5D=18&search%5Bsend%5D=true&search%5Bvt%5D=vermisst&template=20_search_d",
-        "description": "Bremen Police missing persons search"
-      },
-      {
-        "name": "Hamburg Police Missing Persons",
-        "url": "https://www.polizei.hamburg/fahndung-und-diebesgutdatenbank/vermisste-personen-788736",
-        "description": "Hamburg Police missing persons database"
-      },
-      {
-        "name": "Mecklenburg-Vorpommern Police Missing Persons",
-        "url": "https://www.polizei.mvnet.de/Presse/Fahndungen/Fahndungen-nach-Personen/",
-        "description": "Mecklenburg-Vorpommern Police missing persons"
-      },
-      {
-        "name": "Rhineland-Palatinate Police Missing Persons",
-        "url": "https://www.polizei.rlp.de/fahndung/personenfahndungen",
-        "description": "Rhineland-Palatinate Police missing persons"
+        "name": "The Smile of the Child - Missing Children",
+        "url": "https://www.hamogelo.gr/gr/el/eksafanismena-paidia/",
+        "description": "NGO-run list of individual missing-children cases in Greece with names, photos, disappearance dates, and physical descriptions"
       }
     ]
   },
@@ -305,6 +380,18 @@ export const countries = [
         "name": "Hong Kong Police Missing Persons",
         "url": "https://www.police.gov.hk/ppp_en/06_appeals_public/missing/",
         "description": "Hong Kong Police Force missing persons appeals and information"
+      }
+    ]
+  },
+  {
+    "slug": "hungary",
+    "name": "Hungary",
+    "code": "hu",
+    "resources": [
+      {
+        "name": "Police.hu - Eltűnt személyek",
+        "url": "https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/felhivasok?field_feltolto_szerv_target_id=115",
+        "description": "Official Hungarian police registry showing named missing-persons cases, each with a photo and case details"
       }
     ]
   },
@@ -326,9 +413,9 @@ export const countries = [
     "code": "ie",
     "resources": [
       {
-        "name": "Garda Missing Persons",
+        "name": "An Garda Síochána - Missing Persons",
         "url": "https://www.garda.ie/en/missing-persons/",
-        "description": "Garda Síochána missing persons information and appeals"
+        "description": "Official Irish police missing-persons page listing active cases with photos, names, and dates missing across dozens of individual entries"
       }
     ]
   },
@@ -338,14 +425,74 @@ export const countries = [
     "code": "it",
     "resources": [
       {
-        "name": "Italian Prefectures Missing Persons Database",
+        "name": "Portale delle Prefetture - Elenco persone scomparse",
         "url": "https://www1.prefettura.it/portale/contenuti/12996524.htm",
-        "description": "Italian prefectures missing persons database (historical site - may not be updated)"
+        "description": "Official Italian government prefecture portal listing hundreds of individual missing-persons cases with names, birth dates, and disappearance dates"
       },
       {
         "name": "Penelope Italia Missing Persons Archive",
         "url": "https://www.penelopeitalia.org/archivio-scomparsi/",
         "description": "Penelope Italia missing persons archive and information"
+      }
+    ]
+  },
+  {
+    "slug": "kosovo",
+    "name": "Kosovo",
+    "code": "xk",
+    "resources": [
+      {
+        "name": "ICMP Online Inquiry Center - Regional Database of Missing Persons",
+        "url": "https://oic.icmp.int/index.php?w=reg_lista_pub_ter_in&l=en",
+        "description": "Searchable database maintained by the International Commission on Missing Persons containing thousands of active missing-persons case records, including cases from Kosovo, searchable by name and territory of disappearance"
+      }
+    ]
+  },
+  {
+    "slug": "latvia",
+    "name": "Latvia",
+    "code": "lv",
+    "resources": [
+      {
+        "name": "Valsts policija - Bezvēsts pazudušie",
+        "url": "https://www.vp.gov.lv/lv/bezvests-pazudusie-2020",
+        "description": "Official Latvian State Police page listing missing persons cases with names, birth years, disappearance dates, and physical descriptions"
+      }
+    ]
+  },
+  {
+    "slug": "liechtenstein",
+    "name": "Liechtenstein",
+    "code": "li",
+    "resources": [
+      {
+        "name": "Landespolizei Liechtenstein - Fahndungen",
+        "url": "https://www.landespolizei.li/aktuelles/fahndungen",
+        "description": "Official Liechtenstein National Police page listing named missing and wanted persons cases with biographical details and descriptions"
+      }
+    ]
+  },
+  {
+    "slug": "lithuania",
+    "name": "Lithuania",
+    "code": "lt",
+    "resources": [
+      {
+        "name": "Register of Wanted Persons, Unidentified Bodies and Unknown Helpless Persons (IAZR)",
+        "url": "https://ird.lt/en/iazr/",
+        "description": "Official Lithuanian government searchable database allowing the public to search for missing/wanted persons by surname, name, ID code, gender, and birth date"
+      }
+    ]
+  },
+  {
+    "slug": "luxembourg",
+    "name": "Luxembourg",
+    "code": "lu",
+    "resources": [
+      {
+        "name": "Police Grand-Ducale - Personnes disparues",
+        "url": "https://police.public.lu/fr/appels-publics/personnes-disparues.html",
+        "description": "Official Luxembourg police page listing active missing persons cases with names, photos, physical descriptions, and dates last seen"
       }
     ]
   },
@@ -372,6 +519,11 @@ export const countries = [
     "code": "nl",
     "resources": [
       {
+        "name": "Wie Zoekt Wie - Vermist",
+        "url": "https://wiezoektwie.nl/missing/",
+        "description": "Dutch missing-persons platform listing individual cases with names, dates, and descriptions"
+      },
+      {
         "name": "Dutch Police Missing Persons",
         "url": "https://www.politie.nl/en/missing",
         "description": "Official Dutch police missing persons database"
@@ -396,14 +548,31 @@ export const countries = [
     ]
   },
   {
+    "slug": "north-macedonia",
+    "name": "North Macedonia",
+    "code": "mk",
+    "resources": [
+      {
+        "name": "Ministry of Interior North Macedonia - Missing Persons",
+        "url": "https://mvr.gov.mk/en-GB/isceznati-lica",
+        "description": "Official government registry listing dozens of individual missing-persons cases with names, photos, birth dates, and physical descriptions"
+      }
+    ]
+  },
+  {
     "slug": "poland",
     "name": "Poland",
     "code": "pl",
     "resources": [
       {
-        "name": "ITAKA Foundation - Missing Persons Database",
+        "name": "ITAKA Foundation Missing Persons Database",
         "url": "https://zaginieni.pl/home-english/",
-        "description": "Polish foundation helping find missing people and unidentified persons"
+        "description": "A searchable database of over 1,000 missing persons cases in Poland, each with name, photo, and case details, run by the ITAKA Centre for Missing People"
+      },
+      {
+        "name": "Polish Police Missing Persons Portal",
+        "url": "https://zaginieni.policja.gov.pl/",
+        "description": "Official Polish Police portal with a searchable, alphabetically browsable database of missing persons and missing children, each listing showing name and photo"
       }
     ]
   },
@@ -412,6 +581,11 @@ export const countries = [
     "name": "Portugal",
     "code": "pt",
     "resources": [
+      {
+        "name": "Policia Judiciaria - Desaparecidos",
+        "url": "https://www.policiajudiciaria.pt/category/desaparecidos/",
+        "description": "Official Judicial Police category page listing individual missing-persons case posts, each with the person's name and photo"
+      },
       {
         "name": "Policia Judiciaria",
         "url": "https://www.policiajudiciaria.pt/pessoas-desaparecidas/",
@@ -425,9 +599,50 @@ export const countries = [
     "code": "ro",
     "resources": [
       {
+        "name": "Politia Romana - Persoane Disparute",
+        "url": "https://politiaromana.ro/ro/persoane-disparute",
+        "description": "Official Romanian Police database listing individual missing-persons entries with name, photo, date of birth, and last known location"
+      },
+      {
         "name": "Romanian Police Missing Persons",
         "url": "https://politiaromana.ro/en/missing-persons",
         "description": "Romanian Police missing persons database and information"
+      }
+    ]
+  },
+  {
+    "slug": "serbia",
+    "name": "Serbia",
+    "code": "rs",
+    "resources": [
+      {
+        "name": "Registar nestalih lica Srbije",
+        "url": "https://nestalisrbija.rs/",
+        "description": "Public registry displaying individual missing persons cases with names and photographs across dozens of listing pages"
+      }
+    ]
+  },
+  {
+    "slug": "slovakia",
+    "name": "Slovakia",
+    "code": "sk",
+    "resources": [
+      {
+        "name": "PATRO - Pohotovostný pátrací tím",
+        "url": "https://patro.patranie.org/",
+        "description": "Searchable national list of active missing persons cases in Slovakia, filterable by region and name"
+      }
+    ]
+  },
+  {
+    "slug": "slovenia",
+    "name": "Slovenia",
+    "code": "si",
+    "resources": [
+      {
+        "name": "Policija - Missing Persons List",
+        "url": "https://www.policija.si/eng/missing-persons",
+        "description": "Official Slovenian police registry listing active missing persons cases with names, photos, and dates last seen"
       }
     ]
   },
@@ -450,6 +665,11 @@ export const countries = [
     "resources": [
       {
         "name": "SOS Desaparecidos",
+        "url": "https://sosdesaparecidos.es/",
+        "description": "Non-profit organization publishing individual missing persons case pages with names, ages, photos, and physical descriptions"
+      },
+      {
+        "name": "SOS Desaparecidos",
         "url": "https://sosdesaparecidos.es/desaparecidos/",
         "description": "Spanish association for missing persons and unidentified remains"
       },
@@ -466,6 +686,11 @@ export const countries = [
     "code": "se",
     "resources": [
       {
+        "name": "Blåljus.se - Saknade personer",
+        "url": "https://xn--blljus-jua.se/saknade.aspx",
+        "description": "Searchable list of currently missing persons in Sweden with names, ages, photos, and last known locations, sourced from Missing People Sverige"
+      },
+      {
         "name": "Missing People Sweden",
         "url": "https://www.missingpeople.se/",
         "description": "Nationwide non-profit coordinating search operations with police, 24/7 hotline"
@@ -478,19 +703,19 @@ export const countries = [
     "code": "ch",
     "resources": [
       {
+        "name": "Bern Canton Police - Fahndung",
+        "url": "https://www.police.be.ch/de/start/themen/news/fahndung.html",
+        "description": "Official Bern canton police page listing named missing persons and unsolved cases with photos and physical descriptions"
+      },
+      {
+        "name": "Polizeiticker - Vermisst",
+        "url": "https://polizeiticker.ch/vermisst",
+        "description": "Swiss police news aggregator listing individual active missing persons cases nationwide with names, ages, locations, and photos"
+      },
+      {
         "name": "Swiss Police Missing Persons",
         "url": "https://www.polizei-schweiz.ch/category/vermisst/",
         "description": "Swiss police missing persons category and information"
-      },
-      {
-        "name": "Polizeiticker Missing Persons",
-        "url": "https://polizeiticker.ch/vermisst",
-        "description": "Swiss police news ticker with missing persons reports and information"
-      },
-      {
-        "name": "Bern Canton Police Wanted Persons",
-        "url": "https://www.police.be.ch/de/start/themen/news/fahndung.html",
-        "description": "Bern canton police wanted and missing persons database"
       },
       {
         "name": "Bern Canton Police Missing Persons Investigations",
@@ -520,9 +745,26 @@ export const countries = [
     "code": "tr",
     "resources": [
       {
+        "name": "Emniyet Genel Müdürlüğü Asayiş Daire Başkanlığı - Kayıp Arananlar",
+        "url": "https://www.asayis.pol.tr/k/kayip-arananlar",
+        "description": "Official Turkish National Police missing persons list showing individual names, ages, and photographs"
+      },
+      {
         "name": "Kayıp Arananlar - Emniyet Genel Müdürlüğü",
         "url": "https://www.asayis.pol.tr/k/",
         "description": "Official Turkish Police missing persons database, maintained by the Public Order Department."
+      }
+    ]
+  },
+  {
+    "slug": "ukraine",
+    "name": "Ukraine",
+    "code": "ua",
+    "resources": [
+      {
+        "name": "ICMP MyFace Search - Missing Persons Online Inquiry Center",
+        "url": "https://oic.icmp.int/index.php?w=myface&s=search&l=en&btn_submit=1&init=1",
+        "description": "Searchable international database showing individual missing persons cases with photos and details, including large numbers of Ukrainian war-related cases"
       }
     ]
   },
@@ -532,9 +774,9 @@ export const countries = [
     "code": "gb",
     "resources": [
       {
-        "name": "Missing People",
+        "name": "Missing People - Appeal Search",
         "url": "https://www.missingpeople.org.uk/appeal-search",
-        "description": "UK charity helping find missing people"
+        "description": "UK charity's searchable database of current missing persons appeals with names, photos, and regional filters across hundreds of cases"
       },
       {
         "name": "National Crime Agency Missing Persons Search",
@@ -622,7 +864,7 @@ export const countries = [
         "name": "New Mexico Department of Public Safety Missing Persons",
         "url": "http://missingpersons.dps.state.nm.us/mpweb/mpstate_serv",
         "description": "Official New Mexico missing persons database with search and reporting capabilities"
-      },
+      }
     ]
   }
-]
+];
